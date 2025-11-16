@@ -70,7 +70,7 @@
         <tbody class="table-group-divider" id="invTableBody">
           @foreach($invitations as $invitation)
             @php
-              $shareUrl = $invitation->share_url ?? (rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'https://andre-sansan.undanganly.com')), '/').'/'.$invitation->slug);
+              $shareUrl = $invitation->share_url ?? (rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'https://andre-yohani.undanganly.com')), '/').'/'.$invitation->slug);
               $waText = rawurlencode("Halo {$invitation->invitee_name}, ini undangan kami:\n{$shareUrl}");
               $waUrl  = "https://wa.me/?text={$waText}";
             @endphp

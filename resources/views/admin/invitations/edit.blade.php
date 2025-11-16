@@ -40,7 +40,7 @@
   @endif
 
   @php
-    $baseDomain = rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN','https://andre-sansan.undanganly.com')), '/');
+    $baseDomain = rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN','https://andre-yohani.undanganly.com')), '/');
     $finalSlug  = $invitation->slug;           // slug tidak ditampilkan & tidak diubah otomatis
     $shareUrl   = $baseDomain . '/' . $finalSlug;
   @endphp

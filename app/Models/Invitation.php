@@ -51,11 +51,11 @@ class Invitation extends Model
         });
     }
 
-    // URL share: andre-sansan.undanganly.com/{slug}
-    // Simpan domain di .env: INVITE_BASE_DOMAIN=andre-sansan.undanganly.com
+    // URL share: andre-yohani.undanganly.com/{slug}
+    // Simpan domain di .env: INVITE_BASE_DOMAIN=andre-yohani.undanganly.com
     public function getShareUrlAttribute(): string
     {
-        $base = config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'andre-sansan.undanganly.com'));
+        $base = config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'andre-yohani.undanganly.com'));
         return rtrim($base, '/').'/'.$this->slug;
     }
 
