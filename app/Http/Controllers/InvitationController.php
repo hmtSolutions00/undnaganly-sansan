@@ -121,7 +121,7 @@ class InvitationController extends Controller
         ->limit(30) // batasi hasil
         ->get();
 
-    $base = rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'https://my-domainwedding.undnaganly.com')), '/');
+    $base = rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'https://andre-sansan.undnaganly.com')), '/');
 
     return response()->json([
         'items' => $items->map(function ($x) use ($base) {

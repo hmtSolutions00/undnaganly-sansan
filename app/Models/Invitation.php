@@ -51,11 +51,11 @@ class Invitation extends Model
         });
     }
 
-    // URL share: my-domainwedding.undnaganly.com/{slug}
-    // Simpan domain di .env: INVITE_BASE_DOMAIN=my-domainwedding.undnaganly.com
+    // URL share: andre-sansan.undnaganly.com/{slug}
+    // Simpan domain di .env: INVITE_BASE_DOMAIN=andre-sansan.undnaganly.com
     public function getShareUrlAttribute(): string
     {
-        $base = config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'my-domainwedding.undnaganly.com'));
+        $base = config('app.invite_base_domain', env('INVITE_BASE_DOMAIN', 'andre-sansan.undnaganly.com'));
         return rtrim($base, '/').'/'.$this->slug;
     }
 

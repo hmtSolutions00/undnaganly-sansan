@@ -40,7 +40,7 @@
   @endif
 
   @php
-    $baseDomain = rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN','https://my-domainwedding.undnaganly.com')), '/');
+    $baseDomain = rtrim(config('app.invite_base_domain', env('INVITE_BASE_DOMAIN','https://andre-sansan.undnaganly.com')), '/');
     // flag dari server: apakah baru saja tersimpan?
     $createdSlug = session('created_slug');
     $createdName = session('created_name');
