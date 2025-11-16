@@ -1,0 +1,81 @@
+:root{
+  --gold:#D4AF37;
+  --gold-600:#B8961F;
+  --gold-200:#F3E7C7;
+  --ink:#1F1B16;
+  --bg:#FFF8E7;
+  --card:#FFFFFF;
+  --muted:#7A6F61;
+}
+
+body.bg-app{ background: var(--bg); color: var(--ink); }
+
+/* Header */
+.app-header{
+  position: sticky; top:0; z-index:1000;
+  background: var(--card);
+  padding: .75rem 0;
+}
+.brand-dot{
+  width: 10px; height: 10px; border-radius: 50%;
+  display:inline-block; background: var(--gold);
+  box-shadow: 0 0 0 2px rgba(212,175,55,.25);
+}
+.brand-text{
+  font-weight: 800; letter-spacing:.3px; color: var(--ink);
+}
+.brand-text .dot{ color: var(--gold); }
+
+/* Page title */
+.page-title{ font-size: 1.25rem; }
+
+/* Buttons */
+.btn-gold{
+  background: var(--gold); color:#111; border:none;
+}
+.btn-gold:hover{ background: var(--gold-600); color:#111; }
+.btn-outline-gold{
+  border-color: var(--gold); color: var(--gold);
+}
+.btn-outline-gold:hover{
+  background: var(--gold); color:#111; border-color: var(--gold);
+}
+
+/* Tables */
+.table-gold{
+  background: linear-gradient(180deg, rgba(212,175,55,.12), rgba(212,175,55,.02));
+}
+.table thead th{ color: var(--ink); border-bottom:1px solid rgba(0,0,0,.05); }
+.table tbody td{ border-top-color: rgba(0,0,0,.05) !important; }
+.text-gold{ color: var(--gold); }
+
+/* Empty state */
+.empty-state{
+  border:1px dashed rgba(212,175,55,.6);
+  background: #fffef9;
+}
+
+/* Bottom nav */
+.app-bottom-nav{
+  position: fixed; left:0; right:0; bottom:0; z-index:1000;
+  background: var(--card);
+  border-top: 1px solid rgba(0,0,0,.06);
+  padding: .35rem 0 .2rem;
+}
+.app-bottom-nav .nav-item{
+  flex:1 0 25%; text-align:center; text-decoration:none;
+  color: var(--muted); padding:.25rem .5rem;
+  font-size:.8rem;
+  display:flex; flex-direction:column; align-items:center; gap:.15rem;
+}
+.app-bottom-nav .nav-item i{ font-size:1.15rem; }
+.app-bottom-nav .nav-item.active{ color: var(--gold); font-weight:600; }
+.app-bottom-nav .nav-item.active i{ transform: translateY(-1px); }
+
+/* Utilities */
+.pb-6{ padding-bottom: 5.5rem !important; }
+.mb-6{ margin-bottom: 4.5rem !important; }
+
+/* Badges (bs subtle) */
+.bg-success-subtle{ background:#e7f7ec !important; }
+.bg-secondary-subtle{ background:#f1f1f3 !important; }

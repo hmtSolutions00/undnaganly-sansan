@@ -1,0 +1,271 @@
+				@font-face {
+					font-family: 'owissa-story';
+					src: url('9517Owissa-Story.woff2') format('woff2'),
+						url('9517Owissa-Story.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.owissa-story{font-family: 'owissa-story' !important;}
+
+						@font-face {
+					font-family: 'white-garden';
+					src: url('8599White-Garden.woff2') format('woff2'),
+						url('8599White-Garden.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.white-garden{font-family: 'white-garden' !important;}
+
+						@font-face {
+					font-family: 'adora-bouton';
+					src: url('6134Adora-Bouton.woff2') format('woff2'),
+						url('6134Adora-Bouton.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.adora-bouton{font-family: 'adora-bouton' !important;}
+
+						@font-face {
+					font-family: 'brittany';
+					src: url('6799Brittany.woff2') format('woff2'),
+						url('6799Brittany.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.brittany{font-family: 'brittany' !important;}
+
+						@font-face {
+					font-family: 'amsterdam';
+					src: url('735Amsterdam.woff2') format('woff2'),
+						url('735Amsterdam.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.amsterdam{font-family: 'amsterdam' !important;}
+
+						@font-face {
+					font-family: 'aretha';
+					src: url('9329Aretha.woff2') format('woff2'),
+						url('9329Aretha.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.aretha{font-family: 'aretha' !important;}
+
+						@font-face {
+					font-family: 'argentina';
+					src: url('2103Argentina.woff2') format('woff2'),
+						url('2103Argentina.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.argentina{font-family: 'argentina' !important;}
+
+						@font-face {
+					font-family: 'aurelia';
+					src: url('8336Aurelia.woff2') format('woff2'),
+						url('8336Aurelia.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.aurelia{font-family: 'aurelia' !important;}
+
+						@font-face {
+					font-family: 'brown-sugar';
+					src: url('1875Brown-Sugar.woff2') format('woff2'),
+						url('1875Brown-Sugar.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.brown-sugar{font-family: 'brown-sugar' !important;}
+
+						@font-face {
+					font-family: 'mager';
+					src: url('2116Mager.woff2') format('woff2'),
+						url('2116Mager.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.mager{font-family: 'mager' !important;}
+
+						@font-face {
+					font-family: 'floral-heart';
+					src: url('7213Floral-Heart.woff2') format('woff2'),
+						url('7213Floral-Heart.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.floral-heart{font-family: 'floral-heart' !important;}
+
+						@font-face {
+					font-family: 'edwardian';
+					src: url('4724Edwardian.woff2') format('woff2'),
+						url('4724Edwardian.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.edwardian{font-family: 'edwardian' !important;}
+
+						@font-face {
+					font-family: 'mirage';
+					src: url('7511Mirage.woff2') format('woff2'),
+						url('7511Mirage.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.mirage{font-family: 'mirage' !important;}
+
+						@font-face {
+					font-family: 'bacalisties';
+					src: url('2485Bacalisties.woff2') format('woff2'),
+						url('2485Bacalisties.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.bacalisties{font-family: 'bacalisties' !important;}
+
+						@font-face {
+					font-family: 'natasha-walker';
+					src: url('6104Natasha-Walker.woff2') format('woff2'),
+						url('6104Natasha-Walker.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.natasha-walker{font-family: 'natasha-walker' !important;}
+
+						@font-face {
+					font-family: 'the-style-edit';
+					src: url('8743The-Style-Edit.woff2') format('woff2'),
+						url('8743The-Style-Edit.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.the-style-edit{font-family: 'the-style-edit' !important;}
+
+						@font-face {
+					font-family: 'wondar-quason';
+					src: url('7981Wondar-Quason.woff2') format('woff2'),
+						url('7981Wondar-Quason.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.wondar-quason{font-family: 'wondar-quason' !important;}
+
+						@font-face {
+					font-family: 'westiga-regular';
+					src: url('9671Westiga-Regular.woff2') format('woff2'),
+						url('9671Westiga-Regular.woff') format('woff');
+					font-weight: 400; font-style: normal; font-display: auto;
+				}
+
+				.westiga-regular{font-family: 'westiga-regular' !important;}
+
+						@font-face {
+					font-family: 'clarence-two';
+					src: url('7223Clarence-Two.woff2') format('woff2'),
+						url('7223Clarence-Two.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.clarence-two{font-family: 'clarence-two' !important;}
+
+						@font-face {
+					font-family: 'mate-sc';
+					src: url('2166mate-sc.woff2') format('woff2'),
+						url('2166mate-sc.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.mate-sc{font-family: 'mate-sc' !important;}
+
+						@font-face {
+					font-family: 'dream-avenue';
+					src: url('2441Dream-Avenue.woff2') format('woff2'),
+						url('2441Dream-Avenue.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.dream-avenue{font-family: 'dream-avenue' !important;}
+
+						@font-face {
+					font-family: 'satoshi-light';
+					src: url('4633SATOSHI-LIGHT.woff2') format('woff2'),
+						url('4633SATOSHI-LIGHT.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.satoshi-light{font-family: 'satoshi-light' !important;}
+
+						@font-face {
+					font-family: 'kingsman';
+					src: url('8861Kingsman.woff2') format('woff2'),
+						url('8861Kingsman.woff') format('woff');
+					font-weight: 100; font-style: normal; font-display: auto;
+				}
+
+				.kingsman{font-family: 'kingsman' !important;}
+
+						@font-face {
+					font-family: 'zarathustra';
+					src: url('977Zarathustra.woff2') format('woff2'),
+						url('977Zarathustra.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.zarathustra{font-family: 'zarathustra' !important;}
+
+						@font-face {
+					font-family: 'monotype';
+					src: url('5110Monotype.woff2') format('woff2'),
+						url('5110Monotype.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.monotype{font-family: 'monotype' !important;}
+
+						@font-face {
+					font-family: 'baguet';
+					src: url('1125Baguet.woff2') format('woff2'),
+						url('1125Baguet.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.baguet{font-family: 'baguet' !important;}
+
+						@font-face {
+					font-family: 'playwrite-india';
+					src: url('957playwrite-india.woff2') format('woff2'),
+						url('957playwrite-india.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.playwrite-india{font-family: 'playwrite-india' !important;}
+
+						@font-face {
+					font-family: 'northern';
+					src: url('2446NORTHERN.woff2') format('woff2'),
+						url('2446NORTHERN.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.northern{font-family: 'northern' !important;}
+
+						@font-face {
+					font-family: 'le-grand';
+					src: url('3777le-grand.woff2') format('woff2'),
+						url('3777le-grand.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.le-grand{font-family: 'le-grand' !important;}
+
+						@font-face {
+					font-family: 'legrand';
+					src: url('6958legrand.woff2') format('woff2'),
+						url('6958legrand.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.legrand{font-family: 'legrand' !important;}
+
+		
